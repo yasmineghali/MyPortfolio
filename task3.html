@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="task3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel='stylesheet'>
+</head>
+
+<body>
+   <!--===================Header=================--> 
+        <div id="header" >
+        <div class="container" >
+          <nav>
+            <ul id="sidemenu" >
+             <li><a href="#header" >Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#Skills">Skills</a></li>
+             <li><a href="#Projects">Projects</a></li>
+             <li><a href="#certificates">certificates</a></li>
+             <li><a href="#contact">Contact</a></li>
+             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+            <div class="logo "><p><span>YA</span>SMINE</p></div>
+          </nav>
+          <br><br><br>
+          <div class="header-text">
+            <h1>Hello, I'm <span>Yasmine ghali</span><br>I'm 21 years old and  I'm from Tunisia. </h1>
+            <img src="photos/pg2.jpg" alt="">
+          </div>
+          <div class="btn">
+           <a href="https://drive.google.com/file/d/1_N7HUcksWRfIXJdGNYAHKFaM_z9o8Tz8/view?usp=sharing">Download CV</a>
+          </div>
+        </div>
+    </div> 
+    
+       <section class="banner"></section>
+<!--=============== About ====================-->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="photos/me.jpg" alt="" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p >third-year Bachelor's student in Computer Engineering at the Higher Institute of Applied Science and Technology of Sousse (ISSAT)</p>
+            <div class="tab-titles">             
+                        <p class="tab-links active-link" onclick="opentab('Education', event)">Education</p>
+                        <p class="tab-links" onclick="opentab('Expériences', event)">Experiences</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>2021/2022</span><br>Baccalaureate Computer Science, Honors</li>
+                            <li><span>2022/2025</span><br>Bachelor’s in Computer Engineering </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Expériences">
+                        <ul>
+                            <li><span>2023/2024:Juillet/Aout</span><br>Intern at Acoba Tunisia :Developed a mobile app for real-time video streaming on smartphones via RTSP using Kotlin
+                                Gained skills in mobile architecture and real-time data processing. </li>
+                                <li><span>2023/2024:Aout/septambre</span><br>Intern at CodeAlpha Tunisia :Developed a responsive music player
+                                    Adding interactive controls and dynamic information display. </li>
+                                    <li><span>2024/2025</span><br>Machine Learnig Instructor at GDSC</li>
+                                    <li><span>2023/2024</span><br>Web Instructor at GDSC</li>
+                            <li><span>2022/2024</span><br>
+                                Core Team Member of Events and External Relations at Google Developer Student Club (GDSC), ISSAT Sousse</li>
+                                <li><span>2022/2025</span><br>
+                                    Designer and Member Of Marketing comitte at GDSC , ISSAT Sousse</li>    
+                           
+                           
+                            <li><span>2022/2023</span><br>
+                                Member at the Microsoft Issatso Club</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="Hori-class">
+                <button class="btn-scroll" id="left" ><i class="fas fa-chevron-left"></i></button>
+                <div class="con" id="scroll-container">
+                    <div class="skill-item">
+                        <img src="Photos/html12.png" alt="">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/c12.png" alt="">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/js12.png" alt="">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/r.jpg" alt="">
+                        <p>Reactjs</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/nj.jpg" alt="">
+                        <p>Next.js</p>
+                    </div>
+                   
+                    <div class="skill-item">
+                        <img src="Photos/py12.png" alt="">
+                        <p>Python</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/ts.png" alt="">
+                        <p>Tensorflow</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/flu.png" alt="">
+                        <p>Flutter</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/kt.jpg" alt="">
+                        <p>Kotlin</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/java12.png" alt="">
+                        <p>Java</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/Linux12.png" alt="">
+                        <p>Linux</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/c12.png" alt="">
+                        <p>C</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/c++.png" alt="">
+                        <p>C++</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/php.jpg" alt="">
+                        <p>PHP</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/post12.png" alt="">
+                        <p>PostgreSQL</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/A12.png" alt="">
+                        <p>Android Studio</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/git12.png" alt="">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="Photos/acc12.png" alt="">
+                        <p>Microsoft Access</p>
+                    </div>
+                   
+                </div>
+                <button class="btn-scroll" id="right">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+          </div>
+        </div>
+    </div>
+    
+    
+   <div id="Projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1> 
+        <div class="Project-list">
+           <div class="imag">
+            <h2>FaceDetectAI</h2>
+           <div class="A"> <img src="photos/hu.jpg" alt="" > </div>
+            <div class="B">
+                <a href="https://github.com/yasmineghali/Human_Face_Detection/tree/main"><i class="fas fa-external-link-alt"></i></a></div>
+            <div class="cov"></div>
+        </div>
+        <div class="imag">
+            <div class="A"> <h2>Booking Cancellation Prediction</h2><img src="photos/rs.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/HotelReservation"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+         <div class="imag">
+            <div class="A"><h2>Breast Cancer Classification</h2> <img src="photos/br.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/Breast_Cancer_Classification"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+         <div class="imag">
+            <div class="A"> <h2>Mobile App RTSPViewer</h2><img src="photos/app.jpg" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/VLCPlayerRTSP"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+         <div class="imag">
+            <div class="A"> <h2>Mobile App Rakecha</h2><img src="photos/rackcha.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/app-mobile-Rakcha"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+        
+         <div class="imag">
+            <div class="A"><h2>Web Site YaYa Beauty</h2> <img src="photos/pbb.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/Site-web-YaYa-beaty"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+        <div class="imag">
+            <div class="A"><h2>wWeb Site Image Gallery</h2> <img src="photos/gal.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/Image-Gallery"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+         <div class="imag">
+            <div class="A"><h2>Web Site Music Player</h2><img src="photos/play.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/web-site-music-player"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+         <div class="imag">
+            <div class="A"> <h2>Line Follower Robot</h2> <img src="photos/ar.jpg" alt="" > </div>
+             <div class="B">
+                 <a href="https://github.com/yasmineghali/linefollowerrobot"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+           
+    </div>
+   </div>
+   <div id="certificates">
+    <div class="container">
+        <div class="Project-list">
+            <h1 class="sub-title">certificates</h1> 
+           <div class="imag">
+           <div class="A"> <h2>Mastering Generative AI with OpenAI</h2><br><img src="photos/aic.png" alt="" > </div>
+            <div class="B">
+                <a href="https://drive.google.com/file/d/1gy_ggppC_lEWyhRZH-KqaBnndUx08aO2/view?usp=sharing"><i class="fas fa-external-link-alt"></i></a></div>
+            <div class="cov"></div>
+        </div>
+        <div class="imag">
+           <div class="A"> <h2>Cloud digital leader certification</h2><br><img src="photos/cloud.png" alt="" > </div>
+            <div class="B">
+                <a href="https://drive.google.com/file/d/1_X87TX_jc2mxp6JfNhSqVzAPGGSGgDSm/view?usp=drive_link"><i class="fas fa-external-link-alt"></i></a></div>
+            <div class="cov"></div>
+        </div>
+        <div class="imag">
+            <div class="A"> <h2>DevOps Pre-requisite</h2><br><img src="photos/devops.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://drive.google.com/file/d/1z6zl0UM8i6RThrTh41j1M9wLpuLtTxLY/view?usp=drive_link"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+         </div>
+        <div class="imag">
+            <div class="A"> <h2>Amideast</h2><br><img src="photos/am.png" alt="" > </div>
+             <div class="B">
+                 <a href="https://drive.google.com/file/d/1a18fUlDFkfX-pLxlMqWJ183mtKOTzPee/view?usp=drive_link"><i class="fas fa-external-link-alt"></i></a></div>
+             <div class="cov"></div>
+             </div>
+             <div class="imag">
+                <div class="A"> <h2>Leadership</h2><br><img src="photos/leader.png" alt="" > </div>
+                 <div class="B">
+                     <a href="https://drive.google.com/file/d/1VgWz4mREk99TlpqM18OsLg8VdJucWsNU/view?usp=sharing"></i></a></div>
+                 <div class="cov"></div>
+
+         </div>
+        </div>
+    
+   </div>
+   
+
+   <div id="contact">
+    <div class="container"> 
+        <div class="row">
+            
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+               
+                
+                <p><i class="far fa-paper-plane"></i>jsmnghali@gmail.com</p>
+                
+                <p><i class="fa-solid fa-phone-volume"></i>+216 53006008</p>
+                <div class="Social-Media">
+                  <a href="https://www.linkedin.com/in/yasmine-ghali-/"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=100009590973899"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.instagram.com/yasmine.ghali/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1_N7HUcksWRfIXJdGNYAHKFaM_z9o8Tz8/view?usp=sharing" class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST"id="Form">
+                        <input type="hidden" name="access_key" value="fd795681-79da-4e6c-804f-da2000a12d43">
+                        <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="Message" rows="7" placeholder="Leave Your Message"></textarea>
+                        <button  class="btn btn2" type="submit">Send -></button>
+                    </form>
+                </div>
+        </div>
+
+    </div>
+   <div class="copy">
+   <p> Copyright <i class="fa-solid fa-copyright"></i> |Yasmine GHali 2024</p>
+   </div>
+   </div>
+  
+
+</main> 
+<script src="task3.js"></script>
+   
+</body>
+
+</html>
