@@ -9,8 +9,8 @@
 }
 
 body{
-  background: #080808;
-  color: #fff ;
+  background: #eef7fc;
+  color: #141313 ;
 }
 #header{
     width: 100%;
@@ -38,12 +38,12 @@ nav{
     right: 0;
     height: 70px;
     width:100%;
-    background-color: #080808;
+    background-color: #1d2127;
     padding-left: 60px;
     z-index: 100000000;
 }
 nav ul li a {
-    color: #fff;
+    color: #e9e8e8;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -63,7 +63,7 @@ nav ul li a ::after{
     content: '';
     width: 100%;
     height: 3px;
-    background: #ea66d8;
+    background: #6696ea;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -80,7 +80,7 @@ nav ul li a:hover ::after{
 }
 .logo span{
     font-size: 30px;
-    color: #ea66d8;
+    color: #6696ea;
     font-weight: bold;
 }
 @media screen and (max-width: 768px) {
@@ -148,7 +148,7 @@ nav ul li a:hover ::after{
      margin-top: 20px;
 }
 .header-text span{
-    color: #f14edb;
+    color: #6696ea;
 }
 .header-text img{
    height: 500px;
@@ -159,7 +159,7 @@ nav ul li a:hover ::after{
 /*----------------About----------------*/
 #about{
     padding: 80px 0;
-    color:#ababab;
+    color:#141c20;
 }
 .row{
     display: flex;
@@ -183,11 +183,11 @@ nav ul li a:hover ::after{
 .sub-title{
     font-size: 30px;
     font-weight: 600;
-    color: white;
+    color: rgb(5, 6, 6);
     padding-bottom: 12px;
 }
 p{
-    color: white;
+    color: rgb(17, 19, 20);
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 5px;
@@ -233,7 +233,7 @@ p{
     content: '';
     width: 0;
     height: 3px;
-    background-color:#ea66d8;
+    background-color:#66acea;
     position: absolute;
     left: 0px;
     bottom: -8px;
@@ -246,7 +246,7 @@ p{
 .Hori-class {
     width: 100%;
     height: 180px;
-    background-color: #080808;
+    background-color: #d6dce4;
     border: 1px solid #080808;
     border-radius: 5px;
     display: flex;
@@ -271,7 +271,7 @@ p{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #211b1b;
     width: 100%;
    
 }
@@ -281,7 +281,7 @@ p{
     height: 90px;
     margin-bottom: 10px;
     border-radius: 50%;
-    border: 2px solid #080808;
+    border: 2px solid #000000;
 }
 
 .Hori-class::-webkit-scrollbar{
@@ -290,20 +290,22 @@ p{
 #left, #right {
     width: 80px; 
     height: 80px;
-    background-color: #000; 
+    background-color: #d1dbe0; 
     border: none;
     border-radius: 50%; 
-    color: #ea66d8;
+    color: #6696ea;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); 
     transition: background-color 0.3s ease, box-shadow 0.3s ease; 
 }
-
+.end{
+    color: white;
+}
 .btn-scroll:hover {
-    background-color: #333; 
+    background-color: #093841; 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7); 
 }
 
@@ -316,7 +318,7 @@ p{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #ea66d8;
+    color: #6696ea;
     font-size: 14px;
 }
 .tab-contents{
@@ -384,13 +386,13 @@ p{
 
 
 .A:hover {
-    border-color: #7e7979;
+    border-color: #3a3d3e;
 }
 .B{
     position: absolute;
     width: 100%;
     text-align: center;
-    color:white;
+    color:rgb(0, 56, 86);
     opacity: 0;
     font-size: 50px;
     font-weight: bold;
@@ -399,7 +401,7 @@ p{
     
 }
 .B a{
-    color: white;
+    color: rgb(140, 167, 181);
 }
 .imag:hover .B{
     opacity: 1;
@@ -420,7 +422,7 @@ p{
     margin-top: 30px; 
 }
 .contact-left p i{
-    color: #ea66d8;
+    color: #6696ea;
     margin-right: 15px;
 }
 
@@ -431,19 +433,19 @@ p{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #6696ea;
     display: inline-block;
     transition: transform 0.5s;
 }
 .Social-Media a:hover{
-    color: #ea66d8;
+    color: #6696ea;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background-color:#ea66d8;
+    background-color:#6696ea;
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.968);
     padding: 10px;
     margin-top: 30px;
     border-radius: 7px;
@@ -451,14 +453,20 @@ p{
 .contact-right form{
     width: 100%;
 }
+h2{
+    color: #34383c;
+}
+h3{
+    color: #373b3e;
+}
 form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #373b3e;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
     border-radius: 7px;
 }
@@ -472,22 +480,21 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 20px;
-    background: #262626;
+    background: #1a2124;
     font-weight: 300px;
     margin-top: 20px;
+    
 }
 html{
     scroll-behavior: smooth;
 }
 /*-------------------------Responive---------------*/
-nav .fa-solid{
-    display: none;
-}
+
 @media screen and (max-width: 600px ){
     .header-text{
         margin-top: 0px;
         font-size: 16px;
-        color: white;
+        color: rgb(14, 195, 255);
         margin-left: -100px;
     }
     .header-text img{
@@ -500,13 +507,10 @@ nav .fa-solid{
        margin-left: 200px;
        padding-left: -100px;
     }
-    nav .fa-solid {
-        display: block;
-        font-size: 25px;
-    }
+    
     
     nav ul{
-        background: #ea66d8;
+        background: #6696ea;
         position: fixed;
         top: 0;
         right: -50px;
@@ -563,7 +567,7 @@ nav .fa-solid{
        
     }
     .Project-list div{
-        background-color: #262626;
+        background-color: #67cde6;
         width: 350px;
         font-size: 13px;
         font-weight: 250px;
@@ -584,7 +588,7 @@ nav .fa-solid{
     .copy{
         width: 115%;
         text-align: center;
-        background: #262626;
+        background: #48c1e2;
         font-weight: 300px;
         margin-top: 20px;
     }
@@ -598,7 +602,7 @@ nav .fa-solid{
 }
 .btn a{
     display: inline-block;
-    background-color: #ea66d8;
+    background-color: #6696ea;
     text-decoration: none;
     font-size: 25px;
     text-decoration: none;
